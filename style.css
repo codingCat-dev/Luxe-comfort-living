@@ -79,7 +79,7 @@ p {
       text-align: center; } }
   @media only screen and (max-width: 31.25em) {
     .section {
-      padding: 0 0.5rem; } }
+      padding: 0 1rem; } }
 
 .margin-lg {
   margin-top: 45rem; }
@@ -95,6 +95,9 @@ p {
   @media only screen and (max-width: 43.75em) {
     .margin-md {
       margin-top: 15rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .margin-md {
+      margin-top: 12rem; } }
 
 .btn {
   margin: 5rem 0;
@@ -223,6 +226,9 @@ p {
     width: 100%;
     overflow: hidden;
     height: 50rem; }
+    @media only screen and (max-width: 31.25em) {
+      .header-image {
+        height: auto; } }
     .header-image img {
       width: 100%;
       object-fit: cover;
@@ -250,12 +256,12 @@ p {
     opacity: 0;
     letter-spacing: 0.5rem; } }
 
-@media only screen and (max-width: 21.875em) {
+@media only screen and (max-width: 25em) {
   .section-one {
     margin: 2rem 0; } }
 
 .section-one article {
-  margin-top: 3rem;
+  margin-top: 2rem;
   width: 65%;
   font-size: 2rem;
   letter-spacing: 0.15rem;
@@ -296,11 +302,14 @@ p {
     object-fit: cover;
     height: 35rem;
     filter: grayscale(50%) brightness(120%); }
-  @media only screen and (max-width: 31.25em) {
-    .work-box {
-      height: auto; } }
+    @media only screen and (max-width: 31.25em) {
+      .work-box img {
+        height: auto; } }
   .work-box__left {
     margin-right: 1rem; }
+    @media only screen and (max-width: 31.25em) {
+      .work-box__left {
+        margin-right: 0; } }
 
 .section-two {
   background-color: #222;
