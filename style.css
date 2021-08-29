@@ -79,10 +79,7 @@ p {
       text-align: center; } }
   @media only screen and (max-width: 31.25em) {
     .section {
-      padding: 0 1rem; } }
-  @media only screen and (max-width: 31.25em) {
-    .section {
-      padding: 0 0.1rem; } }
+      padding: 0 0.5rem; } }
 
 .margin-lg {
   margin-top: 45rem; }
@@ -211,7 +208,7 @@ p {
           left: 5%;
           width: 90%;
           margin: 0 auto; } }
-      @media only screen and (max-width: 21.875em) {
+      @media only screen and (max-width: 25em) {
         .header-change span {
           font-size: 1.6rem; } }
     .header-change span:nth-child(1) {
@@ -272,9 +269,9 @@ p {
   @media only screen and (max-width: 43.75em) {
     .section-one article {
       width: 95%; } }
-  @media only screen and (max-width: 21.875em) {
+  @media only screen and (max-width: 25em) {
     .section-one article {
-      width: 100%;
+      width: 98%;
       line-height: 1.8; } }
   .section-one article span {
     color: #c32424; }
